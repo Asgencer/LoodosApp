@@ -16,8 +16,8 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewWillAppear(_ animated: Bool) {
         setNavBar()
-        
     }
+    
     
     func setNavBar() {
         self.navigationController?.navigationBar.isTranslucent = false

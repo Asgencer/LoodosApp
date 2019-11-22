@@ -51,7 +51,7 @@ class SearchTableViewCell: UITableViewCell {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.systemFont(ofSize: 12)
-        label.textColor = UIColor(red: 220, green: 220, blue: 220, alpha: 0.5)
+        label.textColor = UIColor(red: 220/255, green: 220/255, blue: 220/255, alpha: 0.5)
         label.numberOfLines = 2;
         return label
     }()
@@ -60,14 +60,14 @@ class SearchTableViewCell: UITableViewCell {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.systemFont(ofSize: 12)
-        label.textColor = UIColor(red: 220, green: 220, blue: 220, alpha: 0.5)
+        label.textColor = UIColor(red: 220/255, green: 220/255, blue: 220/255, alpha: 0.5)
         label.numberOfLines = 2;
         return label
     }()
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        backgroundColor = UIColor(red: 60, green: 60, blue: 60, alpha: 0.5)
+        backgroundColor = UIColor(red: 60/255, green: 60/255, blue: 60/255, alpha: 0.5)
         
         addSubview(posterImageView)
         
