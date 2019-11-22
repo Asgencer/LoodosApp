@@ -151,7 +151,6 @@ class DetailViewController: UIViewController {
     
     let writerLabel: UILabel = {
         let label = UILabel()
-        label.backgroundColor = .cyan
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.systemFont(ofSize: 10)
         label.textColor = UIColor(red: 220/255, green: 220/255, blue: 220/255, alpha: 0.5)
