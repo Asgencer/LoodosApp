@@ -3,18 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		052401E423859821001AAE07 /* FilmListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052401E323859821001AAE07 /* FilmListTableViewCell.swift */; };
+		0525039A23870A50009F1165 /* UITableviewCell + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525039923870A50009F1165 /* UITableviewCell + Extensions.swift */; };
+		0525039C23870AA2009F1165 /* String + UITextField + UILabel + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525039B23870AA2009F1165 /* String + UITextField + UILabel + Extensions.swift */; };
+		0525039E2387174A009F1165 /* AppDelegate + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0525039D2387174A009F1165 /* AppDelegate + Extensions.swift */; };
+		052E703323858E4600105D01 /* FilmCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052E703223858E4600105D01 /* FilmCollectionViewCell.swift */; };
+		052E7036238596F800105D01 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052E7035238596F800105D01 /* HomeViewController.swift */; };
+		0555301F2386DDDE00CC8503 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0555301E2386DDDE00CC8503 /* SearchTableViewCell.swift */; };
+		056CD985237F31A300AB55D3 /* UIViewController + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056CD984237F31A300AB55D3 /* UIViewController + Extensions.swift */; };
+		056CD98F237F4F1200AB55D3 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056CD98E237F4F1200AB55D3 /* Film.swift */; };
+		058C3F8323848A5E00C55E68 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C3F8223848A5E00C55E68 /* TabBarViewController.swift */; };
+		058C3F8523848D2200C55E68 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C3F8423848D2200C55E68 /* SearchViewController.swift */; };
+		058CC313238007B7003DB9E1 /* delete in Sources */ = {isa = PBXBuildFile; fileRef = 058CC312238007B7003DB9E1 /* delete */; };
+		058CC31D23841F16003DB9E1 /* ChangableFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058CC31C23841F16003DB9E1 /* ChangableFont.swift */; };
+		058CC31F23843D0D003DB9E1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058CC31E23843D0D003DB9E1 /* DetailViewController.swift */; };
 		05E8EBB0237F1E3200B9C816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E8EBAF237F1E3200B9C816 /* AppDelegate.swift */; };
 		05E8EBB2237F1E3200B9C816 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E8EBB1237F1E3200B9C816 /* SceneDelegate.swift */; };
-		05E8EBB4237F1E3200B9C816 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E8EBB3237F1E3200B9C816 /* ViewController.swift */; };
-		05E8EBB7237F1E3200B9C816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E8EBB5237F1E3200B9C816 /* Main.storyboard */; };
+		05E8EBB4237F1E3200B9C816 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E8EBB3237F1E3200B9C816 /* SplashViewController.swift */; };
 		05E8EBB9237F1E3200B9C816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E8EBB8237F1E3200B9C816 /* Assets.xcassets */; };
-		05E8EBBC237F1E3200B9C816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E8EBBA237F1E3200B9C816 /* LaunchScreen.storyboard */; };
 		05E8EBC7237F1E3300B9C816 /* LoodosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E8EBC6237F1E3300B9C816 /* LoodosAppTests.swift */; };
 		05E8EBD2237F1E3300B9C816 /* LoodosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E8EBD1237F1E3300B9C816 /* LoodosAppUITests.swift */; };
+		05E8EBE2237F2A6E00B9C816 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05E8EBE1237F2A6E00B9C816 /* GoogleService-Info.plist */; };
+		1EE28688320F48F550C9E5D9 /* Pods_LoodosApp_LoodosAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F87EB637F13374312DF77B /* Pods_LoodosApp_LoodosAppUITests.framework */; };
+		72889B10489A5E0949076C5F /* Pods_LoodosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A153157B523FA78B6093860C /* Pods_LoodosApp.framework */; };
+		75A50CF6770FF13AB5246195 /* Pods_LoodosAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152D4EF183977F44355A0FDE /* Pods_LoodosAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +51,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		052401E323859821001AAE07 /* FilmListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListTableViewCell.swift; sourceTree = "<group>"; };
+		0525039923870A50009F1165 /* UITableviewCell + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableviewCell + Extensions.swift"; sourceTree = "<group>"; };
+		0525039B23870AA2009F1165 /* String + UITextField + UILabel + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + UITextField + UILabel + Extensions.swift"; sourceTree = "<group>"; };
+		0525039D2387174A009F1165 /* AppDelegate + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate + Extensions.swift"; sourceTree = "<group>"; };
+		052E703223858E4600105D01 /* FilmCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCollectionViewCell.swift; sourceTree = "<group>"; };
+		052E7035238596F800105D01 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0555301E2386DDDE00CC8503 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		056CD984237F31A300AB55D3 /* UIViewController + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extensions.swift"; sourceTree = "<group>"; };
+		056CD98E237F4F1200AB55D3 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		058C3F8223848A5E00C55E68 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		058C3F8423848D2200C55E68 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		058CC312238007B7003DB9E1 /* delete */ = {isa = PBXFileReference; lastKnownFileType = text; path = delete; sourceTree = "<group>"; };
+		058CC31C23841F16003DB9E1 /* ChangableFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangableFont.swift; sourceTree = "<group>"; };
+		058CC31E23843D0D003DB9E1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		05E8EBAC237F1E3200B9C816 /* LoodosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoodosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E8EBAF237F1E3200B9C816 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05E8EBB1237F1E3200B9C816 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		05E8EBB3237F1E3200B9C816 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		05E8EBB6237F1E3200B9C816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05E8EBB3237F1E3200B9C816 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		05E8EBB8237F1E3200B9C816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		05E8EBBB237F1E3200B9C816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05E8EBBD237F1E3200B9C816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05E8EBC2237F1E3300B9C816 /* LoodosAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoodosAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E8EBC6237F1E3300B9C816 /* LoodosAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoodosAppTests.swift; sourceTree = "<group>"; };
@@ -49,6 +77,16 @@
 		05E8EBCD237F1E3300B9C816 /* LoodosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoodosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E8EBD1237F1E3300B9C816 /* LoodosAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoodosAppUITests.swift; sourceTree = "<group>"; };
 		05E8EBD3237F1E3300B9C816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E8EBE1237F2A6E00B9C816 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0DF2B398A019E1047F3111AE /* Pods-LoodosApp-LoodosAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoodosApp-LoodosAppUITests.release.xcconfig"; path = "Target Support Files/Pods-LoodosApp-LoodosAppUITests/Pods-LoodosApp-LoodosAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		152D4EF183977F44355A0FDE /* Pods_LoodosAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoodosAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB49CAA0F715AA064981C55 /* Pods-LoodosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoodosApp.release.xcconfig"; path = "Target Support Files/Pods-LoodosApp/Pods-LoodosApp.release.xcconfig"; sourceTree = "<group>"; };
+		A153157B523FA78B6093860C /* Pods_LoodosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoodosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADEFCBBC41E2347F5E31A5C /* Pods-LoodosAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoodosAppTests.debug.xcconfig"; path = "Target Support Files/Pods-LoodosAppTests/Pods-LoodosAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4F87EB637F13374312DF77B /* Pods_LoodosApp_LoodosAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoodosApp_LoodosAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80F3BF6AADE5C339299069D /* Pods-LoodosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoodosApp.debug.xcconfig"; path = "Target Support Files/Pods-LoodosApp/Pods-LoodosApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ED6E07774B06B4CE4003AFC1 /* Pods-LoodosApp-LoodosAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoodosApp-LoodosAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-LoodosApp-LoodosAppUITests/Pods-LoodosApp-LoodosAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F45C264FBD99AD58F801776B /* Pods-LoodosAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoodosAppTests.release.xcconfig"; path = "Target Support Files/Pods-LoodosAppTests/Pods-LoodosAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72889B10489A5E0949076C5F /* Pods_LoodosApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75A50CF6770FF13AB5246195 /* Pods_LoodosAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +110,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE28688320F48F550C9E5D9 /* Pods_LoodosApp_LoodosAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0555301D2386DCB800CC8503 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				058C3F8223848A5E00C55E68 /* TabBarViewController.swift */,
+				052E7035238596F800105D01 /* HomeViewController.swift */,
+				052E703223858E4600105D01 /* FilmCollectionViewCell.swift */,
+				052401E323859821001AAE07 /* FilmListTableViewCell.swift */,
+				058CC31E23843D0D003DB9E1 /* DetailViewController.swift */,
+				058C3F8423848D2200C55E68 /* SearchViewController.swift */,
+				0555301E2386DDDE00CC8503 /* SearchTableViewCell.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		056CD98C237F4E3000AB55D3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				056CD984237F31A300AB55D3 /* UIViewController + Extensions.swift */,
+				058CC31C23841F16003DB9E1 /* ChangableFont.swift */,
+				0525039923870A50009F1165 /* UITableviewCell + Extensions.swift */,
+				0525039B23870AA2009F1165 /* String + UITextField + UILabel + Extensions.swift */,
+				0525039D2387174A009F1165 /* AppDelegate + Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		056CD98D237F4F0800AB55D3 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				056CD98E237F4F1200AB55D3 /* Film.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
 		05E8EBA3237F1E3200B9C816 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +158,8 @@
 				05E8EBC5237F1E3300B9C816 /* LoodosAppTests */,
 				05E8EBD0237F1E3300B9C816 /* LoodosAppUITests */,
 				05E8EBAD237F1E3200B9C816 /* Products */,
+				1C4E4604BE788527CA8DE364 /* Pods */,
+				A73CD032CD7F9B7BF8909B6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +176,16 @@
 		05E8EBAE237F1E3200B9C816 /* LoodosApp */ = {
 			isa = PBXGroup;
 			children = (
+				0555301D2386DCB800CC8503 /* HomePage */,
+				056CD98D237F4F0800AB55D3 /* Modals */,
+				056CD98C237F4E3000AB55D3 /* Utilities */,
 				05E8EBAF237F1E3200B9C816 /* AppDelegate.swift */,
 				05E8EBB1237F1E3200B9C816 /* SceneDelegate.swift */,
-				05E8EBB3237F1E3200B9C816 /* ViewController.swift */,
-				05E8EBB5237F1E3200B9C816 /* Main.storyboard */,
+				05E8EBB3237F1E3200B9C816 /* SplashViewController.swift */,
 				05E8EBB8237F1E3200B9C816 /* Assets.xcassets */,
-				05E8EBBA237F1E3200B9C816 /* LaunchScreen.storyboard */,
 				05E8EBBD237F1E3200B9C816 /* Info.plist */,
+				05E8EBE1237F2A6E00B9C816 /* GoogleService-Info.plist */,
+				058CC312238007B7003DB9E1 /* delete */,
 			);
 			path = LoodosApp;
 			sourceTree = "<group>";
@@ -128,6 +208,29 @@
 			path = LoodosAppUITests;
 			sourceTree = "<group>";
 		};
+		1C4E4604BE788527CA8DE364 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C80F3BF6AADE5C339299069D /* Pods-LoodosApp.debug.xcconfig */,
+				7DB49CAA0F715AA064981C55 /* Pods-LoodosApp.release.xcconfig */,
+				ED6E07774B06B4CE4003AFC1 /* Pods-LoodosApp-LoodosAppUITests.debug.xcconfig */,
+				0DF2B398A019E1047F3111AE /* Pods-LoodosApp-LoodosAppUITests.release.xcconfig */,
+				BADEFCBBC41E2347F5E31A5C /* Pods-LoodosAppTests.debug.xcconfig */,
+				F45C264FBD99AD58F801776B /* Pods-LoodosAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A73CD032CD7F9B7BF8909B6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A153157B523FA78B6093860C /* Pods_LoodosApp.framework */,
+				C4F87EB637F13374312DF77B /* Pods_LoodosApp_LoodosAppUITests.framework */,
+				152D4EF183977F44355A0FDE /* Pods_LoodosAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05E8EBD6237F1E3300B9C816 /* Build configuration list for PBXNativeTarget "LoodosApp" */;
 			buildPhases = (
+				20F0453669B092382387D8A0 /* [CP] Check Pods Manifest.lock */,
 				05E8EBA8237F1E3200B9C816 /* Sources */,
 				05E8EBA9237F1E3200B9C816 /* Frameworks */,
 				05E8EBAA237F1E3200B9C816 /* Resources */,
+				0306EB4EDAFF2E58209D634C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +257,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05E8EBD9237F1E3300B9C816 /* Build configuration list for PBXNativeTarget "LoodosAppTests" */;
 			buildPhases = (
+				94EF64EE0038B7E208F34663 /* [CP] Check Pods Manifest.lock */,
 				05E8EBBE237F1E3300B9C816 /* Sources */,
 				05E8EBBF237F1E3300B9C816 /* Frameworks */,
 				05E8EBC0237F1E3300B9C816 /* Resources */,
@@ -170,9 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05E8EBDC237F1E3300B9C816 /* Build configuration list for PBXNativeTarget "LoodosAppUITests" */;
 			buildPhases = (
+				547D6807288E23F4DAE3FE86 /* [CP] Check Pods Manifest.lock */,
 				05E8EBC9237F1E3300B9C816 /* Sources */,
 				05E8EBCA237F1E3300B9C816 /* Frameworks */,
 				05E8EBCB237F1E3300B9C816 /* Resources */,
+				6473D36625841F32CFF30357 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,9 +340,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05E8EBBC237F1E3200B9C816 /* LaunchScreen.storyboard in Resources */,
 				05E8EBB9237F1E3200B9C816 /* Assets.xcassets in Resources */,
-				05E8EBB7237F1E3200B9C816 /* Main.storyboard in Resources */,
+				05E8EBE2237F2A6E00B9C816 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +361,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0306EB4EDAFF2E58209D634C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoodosApp/Pods-LoodosApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoodosApp/Pods-LoodosApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoodosApp/Pods-LoodosApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20F0453669B092382387D8A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoodosApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		547D6807288E23F4DAE3FE86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoodosApp-LoodosAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6473D36625841F32CFF30357 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoodosApp-LoodosAppUITests/Pods-LoodosApp-LoodosAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoodosApp-LoodosAppUITests/Pods-LoodosApp-LoodosAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoodosApp-LoodosAppUITests/Pods-LoodosApp-LoodosAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94EF64EE0038B7E208F34663 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoodosAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		05E8EBA8237F1E3200B9C816 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05E8EBB4237F1E3200B9C816 /* ViewController.swift in Sources */,
+				058CC313238007B7003DB9E1 /* delete in Sources */,
+				05E8EBB4237F1E3200B9C816 /* SplashViewController.swift in Sources */,
+				052E7036238596F800105D01 /* HomeViewController.swift in Sources */,
+				058CC31F23843D0D003DB9E1 /* DetailViewController.swift in Sources */,
+				0525039E2387174A009F1165 /* AppDelegate + Extensions.swift in Sources */,
+				058CC31D23841F16003DB9E1 /* ChangableFont.swift in Sources */,
+				0555301F2386DDDE00CC8503 /* SearchTableViewCell.swift in Sources */,
 				05E8EBB0237F1E3200B9C816 /* AppDelegate.swift in Sources */,
 				05E8EBB2237F1E3200B9C816 /* SceneDelegate.swift in Sources */,
+				058C3F8523848D2200C55E68 /* SearchViewController.swift in Sources */,
+				0525039C23870AA2009F1165 /* String + UITextField + UILabel + Extensions.swift in Sources */,
+				052401E423859821001AAE07 /* FilmListTableViewCell.swift in Sources */,
+				056CD985237F31A300AB55D3 /* UIViewController + Extensions.swift in Sources */,
+				052E703323858E4600105D01 /* FilmCollectionViewCell.swift in Sources */,
+				0525039A23870A50009F1165 /* UITableviewCell + Extensions.swift in Sources */,
+				058C3F8323848A5E00C55E68 /* TabBarViewController.swift in Sources */,
+				056CD98F237F4F1200AB55D3 /* Film.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +519,6 @@
 			targetProxy = 05E8EBCE237F1E3300B9C816 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		05E8EBB5237F1E3200B9C816 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				05E8EBB6237F1E3200B9C816 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		05E8EBBA237F1E3200B9C816 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				05E8EBBB237F1E3200B9C816 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		05E8EBD4237F1E3300B9C816 /* Debug */ = {
@@ -366,7 +571,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +625,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,9 +637,11 @@
 		};
 		05E8EBD7237F1E3300B9C816 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80F3BF6AADE5C339299069D /* Pods-LoodosApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJ3VY92D85;
 				INFOPLIST_FILE = LoodosApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,15 +650,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = asgencer.LoodosApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		05E8EBD8237F1E3300B9C816 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB49CAA0F715AA064981C55 /* Pods-LoodosApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJ3VY92D85;
 				INFOPLIST_FILE = LoodosApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,12 +669,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = asgencer.LoodosApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		05E8EBDA237F1E3300B9C816 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BADEFCBBC41E2347F5E31A5C /* Pods-LoodosAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +697,7 @@
 		};
 		05E8EBDB237F1E3300B9C816 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F45C264FBD99AD58F801776B /* Pods-LoodosAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +719,7 @@
 		};
 		05E8EBDD237F1E3300B9C816 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED6E07774B06B4CE4003AFC1 /* Pods-LoodosApp-LoodosAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +739,7 @@
 		};
 		05E8EBDE237F1E3300B9C816 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF2B398A019E1047F3111AE /* Pods-LoodosApp-LoodosAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

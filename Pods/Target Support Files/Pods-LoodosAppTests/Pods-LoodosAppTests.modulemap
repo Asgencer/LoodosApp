@@ -1,0 +1,6 @@
+framework module Pods_LoodosAppTests {
+  umbrella header "Pods-LoodosAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
