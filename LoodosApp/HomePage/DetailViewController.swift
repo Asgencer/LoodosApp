@@ -319,7 +319,14 @@ class DetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController?.navigationBar.tintColor = .white
+        let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+        navigationController?.navigationBar.titleTextAttributes = textAttributes
+        self.navigationItem.title = self.mTitle
+        
         setAnalytics()
+        
         view.backgroundColor = UIColor(red: 50/255, green: 50/255, blue: 50/255, alpha: 1)
         
         view.addSubview(scrollView)

@@ -12,28 +12,16 @@ import Firebase
 
 class SplashViewController: UIViewController {
     
-    func updateValues() {
-        loodosLabel.text = RemoteConfig.remoteConfig().configValue(forKey: "loodosLabel").stringValue ?? ""
-    }
     
-    func setUpRemoteConfigDefaults() {
-        let defaultValues = [
-            "loodosText" : "Default" as NSObject
-        ]
-        RemoteConfig.remoteConfig().setDefaults(defaultValues)
-    }
-    
-    func fetchRemoteConfigValues() {
-        RemoteConfig.remoteConfig().fetch(withExpirationDuration: 0) { [unowned self] (status, error) in
-            guard error == nil else {
-                self.alertMessageOk(title: "Oops..!", message: "Values could not updated from\nthe cloud")
-                return
-            }
-            
-            RemoteConfig.remoteConfig().activateFetched()
-            self.updateValues()
-        }
-    }
+    let loodosLabel: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.font = label.font.withSize(70)
+        label.textAlignment = .center
+        label.textColor = UIColor(red: 95/255, green: 172/255, blue: 188/255, alpha: 1)
+        label.font = UIFont(name: "AppleSDGothicNeo-Bold", size: 70)
+        return label
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,15 +64,28 @@ class SplashViewController: UIViewController {
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
-    let loodosLabel: UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = label.font.withSize(70)
-        label.textAlignment = .center
-        label.textColor = UIColor(red: 95/255, green: 172/255, blue: 188/255, alpha: 1)
-        label.font = UIFont(name: "AppleSDGothicNeo-Bold", size: 70)
-        return label
-    }()
+    func updateValues() {
+        loodosLabel.text = RemoteConfig.remoteConfig().configValue(forKey: "loodosLabel").stringValue ?? ""
+    }
+    
+    func setUpRemoteConfigDefaults() {
+        let defaultValues = [
+            "loodosText" : "Default" as NSObject
+        ]
+        RemoteConfig.remoteConfig().setDefaults(defaultValues)
+    }
+    
+    func fetchRemoteConfigValues() {
+        RemoteConfig.remoteConfig().fetch(withExpirationDuration: 0) { [unowned self] (status, error) in
+            guard error == nil else {
+                self.alertMessageOk(title: "Oops..!", message: "Values could not updated from\nthe cloud")
+                return
+            }
+            
+            RemoteConfig.remoteConfig().activateFetched()
+            self.updateValues()
+        }
+    }
 
 
 }

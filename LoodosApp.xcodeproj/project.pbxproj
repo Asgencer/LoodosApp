@@ -18,7 +18,6 @@
 		056CD98F237F4F1200AB55D3 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056CD98E237F4F1200AB55D3 /* Film.swift */; };
 		058C3F8323848A5E00C55E68 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C3F8223848A5E00C55E68 /* TabBarViewController.swift */; };
 		058C3F8523848D2200C55E68 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C3F8423848D2200C55E68 /* SearchViewController.swift */; };
-		058CC313238007B7003DB9E1 /* delete in Sources */ = {isa = PBXBuildFile; fileRef = 058CC312238007B7003DB9E1 /* delete */; };
 		058CC31D23841F16003DB9E1 /* ChangableFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058CC31C23841F16003DB9E1 /* ChangableFont.swift */; };
 		058CC31F23843D0D003DB9E1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058CC31E23843D0D003DB9E1 /* DetailViewController.swift */; };
 		05E8EBB0237F1E3200B9C816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E8EBAF237F1E3200B9C816 /* AppDelegate.swift */; };
@@ -62,7 +61,6 @@
 		056CD98E237F4F1200AB55D3 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
 		058C3F8223848A5E00C55E68 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		058C3F8423848D2200C55E68 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		058CC312238007B7003DB9E1 /* delete */ = {isa = PBXFileReference; lastKnownFileType = text; path = delete; sourceTree = "<group>"; };
 		058CC31C23841F16003DB9E1 /* ChangableFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangableFont.swift; sourceTree = "<group>"; };
 		058CC31E23843D0D003DB9E1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		05E8EBAC237F1E3200B9C816 /* LoodosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoodosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,7 +183,6 @@
 				05E8EBB8237F1E3200B9C816 /* Assets.xcassets */,
 				05E8EBBD237F1E3200B9C816 /* Info.plist */,
 				05E8EBE1237F2A6E00B9C816 /* GoogleService-Info.plist */,
-				058CC312238007B7003DB9E1 /* delete */,
 			);
 			path = LoodosApp;
 			sourceTree = "<group>";
@@ -469,7 +466,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				058CC313238007B7003DB9E1 /* delete in Sources */,
 				05E8EBB4237F1E3200B9C816 /* SplashViewController.swift in Sources */,
 				052E7036238596F800105D01 /* HomeViewController.swift in Sources */,
 				058CC31F23843D0D003DB9E1 /* DetailViewController.swift in Sources */,

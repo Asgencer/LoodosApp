@@ -17,11 +17,13 @@ class TabBarViewController: UITabBarController, UITabBarControllerDelegate {
         
         let nav1 = UINavigationController(rootViewController: HomeViewController())
         nav1.tabBarItem.title = "Home"
+        nav1.navigationController?.navigationBar.tintColor = .white
         nav1.tabBarItem.selectedImage = UIImage(named: "home-selected")?.withRenderingMode(.alwaysOriginal)
         nav1.tabBarItem.image = UIImage(named: "home")?.withRenderingMode(.alwaysOriginal)
         
         let nav2 = UINavigationController(rootViewController: SearchViewController())
         nav2.title = "Search"
+        nav2.navigationController?.navigationBar.tintColor = .white
         nav2.tabBarItem.selectedImage = UIImage(named: "magnifier-selected")?.withRenderingMode(.alwaysOriginal)
         nav2.tabBarItem.image = UIImage(named: "magnifier")?.withRenderingMode(.alwaysOriginal)
 
